@@ -47,6 +47,10 @@ body, .app {
   text-align: center;
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 .open-search {
   position: fixed;
   right: 25px;
@@ -70,6 +74,7 @@ body, .app {
 
 .open-search button:hover {
   background-color: rgb(0, 102, 0);
+  cursor: pointer;
 }
 
 
